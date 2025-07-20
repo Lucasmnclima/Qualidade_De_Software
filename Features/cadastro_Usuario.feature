@@ -17,7 +17,7 @@ Funcionalidade: Criação de Conta de Usuário Detalhada em Múltiplas Etapas
     Dado que o usuário já preencheu o nome e sobrenome
     E está na etapa de informações básicas
     Quando ele preenche os campos "dia", "mês" e "ano"
-    E seleciona a opção "Gemero" desejada
+    E seleciona a opção "Gênero" desejada
       | Masculino            |
       | Feminino             |
       | Não Binário          |
