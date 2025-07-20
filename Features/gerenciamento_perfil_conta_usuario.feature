@@ -49,10 +49,10 @@ Esquema do Cenário: Validar upload de foto de perfil com diferentes arquivos
   Então o sistema deve exibir a "<mensagem>" correspondente
 
   Exemplos:
-    | nome_arquivo        | mensagem                               |
+    | nome_arquivo        | mensagem                                 |
     | "foto_valida.jpg"   | "Foto de perfil atualizada com sucesso." |
-    | "documento.pdf"     | "Formato de arquivo não suportado."    |
-    | "imagem_grande.png" | "O arquivo excede o tamanho máximo."   |
+    | "documento.pdf"     | "Formato de arquivo não suportado."      |
+    | "imagem_grande.png" | "O arquivo excede o tamanho máximo."     |
 
 @conta @critico @destrutivo
 Cenário: Excluir a própria conta permanentemente
