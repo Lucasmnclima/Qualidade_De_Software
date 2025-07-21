@@ -44,7 +44,7 @@ Funcionalidade: Autenticação de Usuário
   Cenário: Bloqueio de conta após múltiplas tentativas falhas de login
     Dado que eu sou um usuário cadastrado com o e-mail "carlos.souza@email.com"
     E que eu estou na página de login
-    Quando eu tento fazer login 5 vezes com a senha incorreta "senha-errada"
-    Então eu devo ver a mensagem "Conta bloqueada por excesso de tentativas."
-    E quando eu tento fazer login com a senha correta "Abc$4321"
+    Quando tento fazer login 5 vezes com a senha incorreta "senha-errada"
+    E devo ver a mensagem "Conta bloqueada por excesso de tentativas."
+    E tento fazer login com a senha correta "Abc$4321"
     Então meu login deve falhar novamente devido ao bloqueio
